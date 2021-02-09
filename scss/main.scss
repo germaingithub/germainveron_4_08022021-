@@ -1,12 +1,11 @@
-@import "_responsive_vers";
+@import "_responsive_vers.scss";
+@import "_variables.scss";
 
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: $back-color;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -26,7 +25,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: $back-color url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -34,9 +33,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -56,22 +52,6 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
-}
-
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-    background-size: auto !important;
 }
 
 .bg-repeat {
@@ -135,7 +115,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: $grey-color;
 }
 
 .d-bloc .a-btn:hover,
@@ -152,57 +132,57 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: $grey-color;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: $back-color;
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
+    color: $back-color;
+    border-color: $back-color;
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: $black-color;
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: $black-color;
 }
 
 .d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
+    border-color: $black-color;
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: $black-color;
 }
 
 .d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
+    color: $black-color;
 }
 
 .d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
+    color: $black-color;
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+    color: $black-color;
+    border-color:$black-color;
 }
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: $black-color;
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: $black-color;
 }
 
 .l-bloc .icon-round,
@@ -210,7 +190,7 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
+    border-color: $black-color;
 }
 
 .d-bloc .panel .divider-h span,
@@ -233,7 +213,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: $black-color;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -251,19 +231,19 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: $black-color;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: $black-color;
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+    color: $black-color;
+    border-color: $black-color;
 }
 
 .voffset {
@@ -349,7 +329,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: $black-color;
     width: 26px;
 }
 
@@ -390,7 +370,7 @@ nav .caret {
 }
 
 .dropdown-menu .dropdown span {
-    border: 4px solid black;
+    border: 4px solid $black-color;
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
@@ -419,8 +399,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    color: $back-color;
+    background: $black-color;
 }
 
 button {
@@ -432,10 +412,11 @@ button {
 }
 
 .btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    border: 1px solid $black-color;
+    border-bottom-color: $black-color;
+    text-shadow: 0 1px 0 $black-color;
+    box-shadow: 0 1px 3px $black-color,
+    inset 0 1px 0 0 $grey-color;
 }
 
 .icon-md {
@@ -447,7 +428,7 @@ button {
 }
 
 .sm-shadow {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    text-shadow: 0 1px 2px $black-color;
 }
 
 .panel-sq,
@@ -469,7 +450,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: $black-color;
     box-shadow: none;
 }
 
@@ -507,14 +488,14 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    background: $black-color;
+    color: $back-color;
     font-weight: 100;
     z-index: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+   
 }
 
 a[data-lightbox]:hover img {
@@ -541,8 +522,8 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
+    color: $back-color;
+    background: $black-color;
     position: absolute;
     left: 15px;
     right: 15px;
@@ -550,13 +531,13 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: $back-color;
     font-size: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: $black-color;
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
@@ -567,14 +548,14 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: $back-color;
 }
 
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    color: $back-color;
+    background: $black-color;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -598,7 +579,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: $black-color;
     background: none;
 }
 
@@ -655,7 +636,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: $back-color !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -676,7 +657,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color: $black-color !important;
 }
 
 .med-width-whitespace {
@@ -699,7 +680,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: $back-color !important;
 }
 
 .portfolio-thumb {
@@ -712,11 +693,11 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px $black-color;
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: $black-color;
     padding: 40px 40px 40px 40px;
 }
 
@@ -726,7 +707,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: $back-color;
 }
 
 .bgc-dark-slate-blue {
@@ -734,25 +715,25 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: $backo-color;
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: $backo-color !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF !important;
+    background: $backo-color;
+    color: $back-color !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: #FFFFFF !important;
+    background: $backo-color !important;
+    color: $back-color !important;
 }
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: $back-color !important;
 }
 
 .ltc-white:hover {
@@ -760,11 +741,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C !important;
+    color: $backo-color !important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
+    color: $backo-color !important;
 }
 
 .icon-dark-slate-blue {
@@ -787,30 +768,3 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
-
-
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80%
-    }
-
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-
-
