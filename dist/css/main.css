@@ -218,8 +218,8 @@
     position: relative;
   }
   .bloc {
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 0 auto;
+    padding-right: 0 auto;
   }
   .bloc-group,
   .bloc-group .bloc {
