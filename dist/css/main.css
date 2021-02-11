@@ -217,10 +217,7 @@
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: 0 auto;
-    padding-right: 0 auto;
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -229,8 +226,7 @@
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: auto;
-    padding-right: auto;
+
   }
 }
 
