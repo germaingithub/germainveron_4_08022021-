@@ -45,8 +45,8 @@ button {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
+.texture-paper {
+    background-color: $blue-color;
     background-size: 280px 280px;
 }
 
@@ -309,7 +309,7 @@ nav .caret {
 }
 
 .tc-white {
-    color: $backo-color !important;
+    color: $back-color !important;
 }
 
 .btn-atomic-tangerine {
@@ -374,7 +374,7 @@ nav .caret {
 
 .cta-hero {
     margin-top: 22px;
-    color: $back-color !important;
+    color: $black-color !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -478,4 +478,27 @@ nav .caret {
     font-size: 22px;
     font-weight: 200;
     
+}
+.bgc-atomic-tangerines{
+    background-color: #444242;
+}
+.keywords{
+color:$back-color;
+font-size: 20px;
+}
+.col-sm-4{
+    color: $back-color;
+    font-size: 25px;
+    
+   
+}
+.contact_foot{
+font-size: 30px;
+color: $back-color;
+
+}
+.adresse{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
 }

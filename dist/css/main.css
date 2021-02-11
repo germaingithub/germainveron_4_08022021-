@@ -15,7 +15,7 @@
   .site-navigation {
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 200px;
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
@@ -270,7 +270,7 @@
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .d-bloc button:hover {
@@ -295,7 +295,7 @@
 }
 
 .d-bloc .panel button:hover {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .d-bloc .btn-wire,
@@ -306,25 +306,25 @@
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-  color: rgba(0, 0, 1, 0.1);
-  border-color: rgba(0, 0, 1, 0.1);
+  color: black;
+  border-color: black;
 }
 
 .d-bloc .panel .a-btn:hover {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-  color: rgba(0, 0, 1, 0.1);
-  border-color: rgba(0, 0, 1, 0.1);
+  color: black;
+  border-color: black;
 }
 
 #page-loading-blocs-notifaction {
@@ -350,7 +350,7 @@
 }
 
 .dropdown-menu .dropdown span {
-  border: 4px solid rgba(0, 0, 1, 0.1);
+  border: 4px solid black;
   border-top-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
@@ -381,7 +381,7 @@
 .lightbox-caption {
   padding: 20px;
   color: #FFFFFF;
-  background: rgba(0, 0, 1, 0.1);
+  background: black;
   position: absolute;
   left: 15px;
   right: 15px;
@@ -395,7 +395,7 @@
   top: 20px;
   right: 20px;
   z-index: 20;
-  background: rgba(0, 0, 1, 0.1);
+  background: black;
   border: none;
   line-height: 30px;
   padding: 0 9px 5px;
@@ -413,7 +413,7 @@
 .prev-lightbox {
   font-size: 20px;
   color: #FFFFFF;
-  background: rgba(0, 0, 1, 0.1);
+  background: black;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   position: absolute;
@@ -438,7 +438,7 @@
 
 .snapshot-lb .lightbox-caption {
   padding: 0;
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
   background: none;
 }
 
@@ -472,7 +472,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: rgba(0, 0, 1, 0.1) !important;
+  color: black !important;
 }
 
 h1 {
@@ -514,7 +514,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black !important;
 }
 
 p {
@@ -535,7 +535,7 @@ a[data-lightbox]:hover::before {
   height: 50px;
   margin-left: -25px;
   border-radius: 50%;
-  background: rgba(0, 0, 1, 0.1);
+  background: black;
   color: #FFFFFF;
   font-weight: 100;
   z-index: 1;
@@ -624,6 +624,14 @@ a[data-lightbox]:hover img {
   background-image: url("img/image-de-presentation.bmp");
 }
 
+.text-center {
+  font-size: 20px;
+}
+
+.titre {
+  font-size: 50px;
+}
+
 button {
   outline: none !important;
 }
@@ -672,8 +680,8 @@ button {
   right: 0;
 }
 
-.texture-paper::before {
-  background: url("img/texture-paper.png");
+.texture-paper {
+  background-color: #354378;
   background-size: 280px 280px;
 }
 
@@ -719,24 +727,24 @@ button {
 }
 
 .d-bloc .panel {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .d-bloc .panel icon {
-  border-color: rgba(0, 0, 1, 0.1);
+  border-color: black;
 }
 
 .d-bloc .panel .divider-h span {
-  border-color: rgba(0, 0, 1, 0.1);
+  border-color: black;
 }
 
 .d-bloc .panel .a-btn {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .l-bloc .icon-round,
@@ -744,7 +752,7 @@ button {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-  border-color: rgba(0, 0, 1, 0.1);
+  border-color: black;
 }
 
 .d-bloc .panel .divider-h span,
@@ -767,7 +775,7 @@ button {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .navbar {
@@ -830,7 +838,7 @@ button {
 }
 
 .navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 1, 0.1);
+  background-color: black;
   width: 26px;
 }
 
@@ -867,7 +875,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
   color: #FFFFFF;
-  background: rgba(0, 0, 1, 0.1);
+  background: black;
 }
 
 .btn-rd {
@@ -875,11 +883,11 @@ nav .caret {
 }
 
 .btn-clean {
-  border: 1px solid rgba(0, 0, 1, 0.1);
-  border-bottom-color: rgba(0, 0, 1, 0.1);
-  text-shadow: 0 1px 0 rgba(0, 0, 1, 0.1);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 1, 0.1), inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
-          box-shadow: 0 1px 3px rgba(0, 0, 1, 0.1), inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+  border: 1px solid black;
+  border-bottom-color: black;
+  text-shadow: 0 1px 0 black;
+  -webkit-box-shadow: 0 1px 3px black, inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+          box-shadow: 0 1px 3px black, inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
 }
 
 .icons {
@@ -901,12 +909,12 @@ nav .caret {
 }
 
 .avatar {
-  -webkit-box-shadow: 0px 4px 9px rgba(0, 0, 1, 0.1);
-          box-shadow: 0px 4px 9px rgba(0, 0, 1, 0.1);
+  -webkit-box-shadow: 0px 4px 9px black;
+          box-shadow: 0px 4px 9px black;
 }
 
 .black-background {
-  background-color: rgba(0, 0, 1, 0.1);
+  background-color: black;
   padding: 40px 40px 40px 40px;
 }
 
@@ -928,16 +936,16 @@ nav .caret {
 }
 
 .tc-white {
-  color: #F3976C !important;
+  color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine {
-  background: #F3976C;
+  background: #FFDE4F;
   color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #F3976C !important;
+  background: #FFDE4F !important;
   color: #FFFFFF !important;
 }
 
@@ -950,11 +958,11 @@ nav .caret {
 }
 
 .ltc-atomic-tangerine {
-  color: #F3976C !important;
+  color: #FFDE4F !important;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #F3976C !important;
+  color: #FFDE4F !important;
 }
 
 .icon-dark-slate-blue {
@@ -991,7 +999,7 @@ nav .caret {
 
 .cta-hero {
   margin-top: 22px;
-  color: #FFFFFF !important;
+  color: black !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -1011,7 +1019,7 @@ nav .caret {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-  color: rgba(0, 0, 1, 0.1);
+  color: black;
 }
 
 .voffset {
@@ -1052,7 +1060,7 @@ nav .caret {
 }
 
 .sm-shadow {
-  text-shadow: 0 1px 2px rgba(0, 0, 1, 0.1);
+  text-shadow: 0 1px 2px black;
 }
 
 .panel-sq,
@@ -1074,7 +1082,7 @@ nav .caret {
 }
 
 .form-control {
-  border-color: rgba(0, 0, 1, 0.1);
+  border-color: black;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1092,6 +1100,31 @@ nav .caret {
 .review {
   font-size: 22px;
   font-weight: 200;
+}
+
+.bgc-atomic-tangerines {
+  background-color: #444242;
+}
+
+.keywords {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.col-sm-4 {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.contact_foot {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.adresse {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 .social {

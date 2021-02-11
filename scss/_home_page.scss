@@ -45,7 +45,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color: $black-color !important;
 }
 p {
     font-size: 11px;
@@ -151,4 +151,13 @@ a[data-lightbox]:hover img {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.text-center{
+    
+        font-size: 20px;
+    
+
+}
+.titre{
+    font-size: 50px;
 }
