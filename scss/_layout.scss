@@ -502,3 +502,9 @@ color: $back-color;
     padding-top: 50px;
     padding-left: 50px;
 }
+.bloc-button{
+    background-color: $blue-color;
+    .cta-hero{
+        color: white;
+    }
+}
